@@ -15,6 +15,7 @@ namespace AssemblyCSharp.Assets.Logic.Unit.Components
         {
             base.Start();
             unitStatus.Damage = UnityEngine.Random.Range(1, 40);
+            unitStatus.Health = UnityEngine.Random.Range(10, 200);
             transform.position += Vector3.up / 2f;
         }
 
